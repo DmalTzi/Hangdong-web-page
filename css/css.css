@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(255, 193, 193);
+}
+
+.nav-con {
+    background-color: rgb(255, 193, 193);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+}
+
+ul.menu{
+    display: flex;
+    list-style: none;
+}
+
+ul.menu li {
+    margin: 0.2rem;
+}
+
+ul.menu li a {
+    font-size: 100%;
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    overflow: hidden;
+    min-height: 400px;
+    max-height: 600px;
+    background: url(/image/background/1.1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: relative;
+    opacity: 100%;
+}
+
+.text-index{
+    z-index: 1;
+}
+
+/* .color-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0);
+    opacity: .7;
+    position: absolute;
+} */
+
+.header-section{
+    min-width:  300px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #fff;
+    
+}
+
+main > h1{
+    text-align: center;
+    font-size: x-large;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+.pictures {
+    align-content: center;
+    margin: 1rem 1rem 1rem 1rem;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-gap: 2rem; 
+}
+
+.pictures > figure > img{
+    min-width: 50px;
+    max-width:  200px;
+    min-height: 100px;
+    max-height: 350px;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+figcaption{
+    margin-top: 0rem;
+    text-align: center;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.pictures2{
+    /* text-align: center; */
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.pictures2 figure img{
+    min-width: 50px;
+    max-width:  150px;
+    min-height: 100px;
+    max-height: 200px;
+    align-content: center;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+
+}
+
+.image-container{
+    text-align: center;
+
+}
+
+
+footer{
+    background-color: rgb(51, 51, 51);
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    color: #fff;
+}
