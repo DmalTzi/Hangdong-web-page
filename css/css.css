@@ -15,12 +15,12 @@ nav h1{
 
 /* bar fill color */
 nav{
-    background-color: rgb(255, 193, 193);
+    background-color: #FF5959;
 }
 
 /* nav container */
 .nav-con {
-    background-color: rgb(255, 193, 193);
+    background-color: FF5959;
     height: 60px;
     display: flex;
     justify-content: space-between;
