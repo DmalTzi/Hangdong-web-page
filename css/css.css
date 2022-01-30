@@ -1,19 +1,24 @@
+/* margin all = 0*/
 * {
     margin: 0;
 }
 
+/* underline = none */
 nav a{
     text-decoration: none;
 }
 
+/* title hangdong dsi color = black */
 nav h1{
     color: #000;
 }
 
+/* bar fill color */
 nav{
     background-color: rgb(255, 193, 193);
 }
 
+/* nav container */
 .nav-con {
     background-color: rgb(255, 193, 193);
     height: 60px;
@@ -23,21 +28,26 @@ nav{
     align-items: center;
 }
 
+/* stly of menu */
 ul.menu{
     display: flex;
     list-style: none;
 }
 
+/* margin menu */
 ul.menu li {
-    margin: 0.5rem;
+    margin: 0.3rem;
 }
 
+/* text menu color, size, underline */
 ul.menu li a {
     font-size: 100%;
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
+/* background image */
 header{
     overflow: hidden;
     min-height: 400px;
@@ -52,18 +62,7 @@ header{
     opacity: 100%;
 }
 
-.text-index{
-    z-index: 1;
-}
-
-/* .color-overlay{
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0);
-    opacity: .7;
-    position: absolute;
-} */
-
+/* text on background */
 .header-section{
     min-width:  300px;
     margin-top: 2rem;
@@ -73,6 +72,7 @@ header{
     
 }
 
+/* title of member */
 main > h1{
     text-align: center;
     font-size: x-large;
@@ -80,6 +80,7 @@ main > h1{
     margin-bottom: 0rem;
 }
 
+/* pictures main council */
 .pictures {
     align-content: center;
     margin-top: 1rem;
@@ -88,6 +89,7 @@ main > h1{
     grid-gap: 1rem; 
 }
 
+/* image size main council */
 .pictures > figure > img{
     min-width: 50px;
     max-width:  200px;
@@ -98,24 +100,30 @@ main > h1{
     margin-right: 10%;
 }
 
+/* text name margin and center */
 figcaption{
-    margin-top: 0rem;
+    margin-top: 0.5rem;
     text-align: center;
 }
 
+/* container */
 .container{
     max-width: 960px;
     margin: 0 auto;
 }
 
+/* image size sub member council */
 .pictures2{
     text-align: center;
     margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem ;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
 }
 
+/* image size sub member council */
 .pictures2 figure img{
     min-width: 50px;
     max-width:  150px;
@@ -124,17 +132,24 @@ figcaption{
     align-content: center;
 }
 
+/* text name color and size font */
+.pictures2 p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+/* image container */
 .image-container{
     text-align: center;
-
 }
 
+/* image boder and shadow */
 img{
     border: 5px solid #fff;
-    box-shadow: 5px 5px rgb(51, 51, 51);
-    margin-bottom: 0.5rem;
+    box-shadow: 5px 5px rgb(90, 90, 90);
 }
 
+/* footer */
 footer{
     background-color: rgb(51, 51, 51);
     padding-top: 2rem;
@@ -144,11 +159,7 @@ footer{
     color: #fff;
 }
 
-.pictures2 p{
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-}
-
+/* background color */
 body{
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(172, 172, 172);
 }
