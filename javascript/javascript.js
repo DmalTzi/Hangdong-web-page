@@ -1,14 +1,18 @@
 
-const countElement = document.getElementById('count');
+// const countElement = document.getElementById('count');
 
-update();
+// update();
 
-function update(){
-    fetch('https://api.countapi.xyz/update/dmaltzicode/test?amount=1')
-        .then(res => res.json())
-        .then(res => {
-            countElement.innerHTML = res.value;
-        })
+// function update(){
+//     fetch('https://api.countapi.xyz/update/dmaltzicode/test?amount=1')
+//         .then(res => res.json())
+//         .then(res => {
+//             countElement.innerHTML = res.value;
+//         })
+// }
+
+function websiteVisits(response){
+    document.querySelector("#visits").textContent = response.value;
 }
 
 function togglePopup(){
