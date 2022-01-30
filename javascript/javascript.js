@@ -1,13 +1,16 @@
-function togglePopup(){
-    document.getElementById("popup-1").classList.toggle("active");
-}
 
-const countEL = document.getElementById('count');
+const countElement = document.getElementById('count');
 
-function updateVisitCount(){
-    fetch('https://api.countapi.xyz/create?namespace=florin-pop&key=youtube&value=0')
+update();
+
+function update(){
+    fetch('https://api.countapi.xyz/update/dmaltzicode/test?amount=1')
         .then(res => res.json())
         .then(res => {
-            countEL.innerHTML = res.value
-        });
+            countElement.innerHTML = res.value;
+        })
+}
+
+function togglePopup(){
+    document.getElementById("popup-1").classList.toggle("active");
 }
