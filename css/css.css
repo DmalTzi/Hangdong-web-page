@@ -84,7 +84,7 @@ main > h1{
     align-content: center;
     margin-top: 1rem;
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr;
     grid-gap: 1rem; 
 }
 
@@ -109,7 +109,7 @@ figcaption{
 }
 
 .pictures2{
-    /* text-align: center; */
+    text-align: center;
     margin-top: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -122,9 +122,6 @@ figcaption{
     min-height: 100px;
     max-height: 200px;
     align-content: center;
-    /* margin-left: 10%;
-    margin-right: 10%; */
-
 }
 
 .image-container{
@@ -137,6 +134,12 @@ footer{
     background-color: rgb(51, 51, 51);
     padding-top: 2rem;
     padding-bottom: .5rem;
+    margin-top: 2rem;
     text-align: center;
     color: #fff;
+}
+
+.pictures2 p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
 }
