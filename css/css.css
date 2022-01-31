@@ -21,7 +21,7 @@ nav{
 /* nav container */
 .nav-con {
     background-color: FF5959;
-    height: 60px;
+    height: 30px;
     display: flex;
     justify-content: space-between;
     padding: 0 1rem;
@@ -128,7 +128,7 @@ figcaption{
 
 /* container */
 .container{
-    max-width: 960px;
+    max-width: 690px;
     margin: 0 auto;
 }
 
