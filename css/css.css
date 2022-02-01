@@ -57,7 +57,7 @@ ul.menu{
 
 /* margin menu */
 ul.menu li {
-    margin: 0.3rem;
+    margin-left: 0.3rem;
 }
 
 /* text menu color, size, underline */
